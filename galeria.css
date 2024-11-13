@@ -1,0 +1,78 @@
+body
+{
+    background: rgb(255, 255, 231);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*O menu vai aqui*/
+.header
+{
+    background-color: black;
+    text-align: left;
+}
+
+.menu ul, .menu li /*menu*/
+{
+    padding: 1px;
+    margin: 0;
+}
+.menu ul
+{
+    display: flex;
+    align-items: center;
+    background: rgb(214, 173, 0);
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+.menu li {
+    position: relative;
+    width: auto;
+    margin: 0 30px;
+    align-items: center;
+}
+
+.menu li:hover {
+    outline: 1px solid rgb(255, 255, 255); 
+}
+.menu a:hover
+{
+    color: red;
+}
+.menu a
+{
+    background: rgb(214, 173, 0);
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+
+
+.logo
+{
+    display:inline-block;
+    margin: 0px;
+    width: 350px;
+    padding: 0px;
+}
+
+.article
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+}
+.texto
+{
+    font-size: 40px;
+    font-family: 'oswald';
+}

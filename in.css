@@ -1,0 +1,124 @@
+body
+{
+    background: rgb(255, 255, 231);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*O menu vai aqui*/
+.header
+{
+    background-color: black;
+    text-align: left;
+}
+
+.menu ul, .menu li /*menu*/
+{
+    padding: 1px;
+    margin: 0;
+}
+.menu ul
+{
+    display: flex;
+    align-items: center;
+    background: rgb(214, 173, 0);
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+.menu li {
+    position: relative;
+    width: auto;
+    margin: 0 30px;
+    align-items: center;
+}
+
+.menu li:hover {
+    outline: 1px solid rgb(255, 255, 255); 
+}
+.menu a:hover
+{
+    color: red;
+}
+.menu a
+{
+    background: rgb(214, 173, 0);
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.logo
+{
+    display:inline-block;
+    margin: 0px;
+    width: 350px;
+    padding: 0px;
+}
+
+
+
+.ti
+{
+    font-family: "oswald";
+    text-align: center;
+}
+
+
+
+/*Versículo diário*/
+.section
+{
+    background: linear-gradient(to right, rgb(214, 173, 0),rgb(173, 216, 230));
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.VD
+{
+    text-align: center;
+    font-size:  35px;
+    font-family: "oswald";
+}
+.VD2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.VD3
+{
+    text-align: justify;
+    margin: 0px 15px 0px 15px;
+
+}
+
+
+
+/*aqui o rodapé guri*/
+.footer
+{
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(173, 216, 230);
+}
